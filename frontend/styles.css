@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.image-div img {
+    width: 500px;
+    height: 'auto';
+}
+
+h2 {
+    display: none;
+}

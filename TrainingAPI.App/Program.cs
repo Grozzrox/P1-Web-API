@@ -20,12 +20,6 @@ namespace TrainingAPI.App
 
             List<string> Usernames = new List<string>();
 
-            foreach (var item in musicians)
-            {
-                Usernames.Add(item.ToString());
-                Console.WriteLine(item.ToString());
-            }
-
             /*foreach (var item in associates)
             {
                 Usernames.Add(item.name.ToString());
@@ -47,6 +41,7 @@ namespace TrainingAPI.App
             switch (user) {
                 case "rickAstley":
                     Console.WriteLine("\n");
+                    Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("Oh...hi, Rick. Please enter your password.");
                     string? pass = Console.ReadLine();
 
@@ -71,6 +66,7 @@ namespace TrainingAPI.App
                     break;
                 case "metallica":
                     Console.WriteLine("\n");
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("All hail, Metallica! Please enter your password and prepare to rock.");
                     pass = Console.ReadLine();
 
@@ -83,6 +79,7 @@ namespace TrainingAPI.App
 
                         Console.WriteLine("\n");
                         Console.WriteLine(lyrics);
+                        Console.WriteLine("\n");
                         System.Diagnostics.Process.Start( new System.Diagnostics.ProcessStartInfo { FileName = metallica, UseShellExecute = true });
                         
                     } else {
@@ -94,6 +91,7 @@ namespace TrainingAPI.App
                     break;
                 case "daftpunk":
                     Console.WriteLine("\n");
+                    Console.ForegroundColor = ConsoleColor.Blue;
                     Console.WriteLine("Woooo, it's party time! Please enter your password :)");
                     pass = Console.ReadLine();
 
@@ -106,6 +104,7 @@ namespace TrainingAPI.App
 
                         Console.WriteLine("\n");
                         Console.WriteLine(lyrics);
+                        Console.WriteLine("\n");
                         System.Diagnostics.Process.Start( new System.Diagnostics.ProcessStartInfo { FileName = daftpunk, UseShellExecute = true });
                         
                     } else {
@@ -116,6 +115,61 @@ namespace TrainingAPI.App
 
                     loop = false;
                     break;
+
+                case "britneyspears":
+                    Console.WriteLine("\n");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine("Uhhh...are you supposed to be here, Britney? Just checking, please type in your password.");
+                    pass = Console.ReadLine();
+
+                    
+                        if (pass == musicians[3].password) {
+                        Console.WriteLine("Correct password!");
+
+                        string britney = @"http://localhost:3000/";
+                        string lyrics = musicians[3].lyrics.ToString();
+
+                        Console.WriteLine("\n");
+                        Console.WriteLine(lyrics);
+                        Console.WriteLine("\n");
+                        System.Diagnostics.Process.Start( new System.Diagnostics.ProcessStartInfo { FileName = britney, UseShellExecute = true });
+                        
+                    } else {
+                        Console.WriteLine("Wrong password. Please try again.");
+                        
+                    }
+                    
+
+                    loop = false;
+                    break;
+
+                case "kanye":
+                    Console.WriteLine("\n");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("Hello Mr. Ye! Please enter your Kanye Best password.");
+                    pass = Console.ReadLine();
+
+                    
+                        if (pass == musicians[4].password) {
+                        Console.WriteLine("Correct password!");
+
+                        string kanye = @"https://www.youtube.com/watch?v=6CHs4x2uqcQ";
+                        string lyrics = musicians[4].lyrics.ToString();
+
+                        Console.WriteLine("\n");
+                        Console.WriteLine(lyrics);
+                        Console.WriteLine("\n");
+                        System.Diagnostics.Process.Start( new System.Diagnostics.ProcessStartInfo { FileName = kanye, UseShellExecute = true });
+                        
+                    } else {
+                        Console.WriteLine("Wrong password. Please try again.");
+                        
+                    }
+                    
+
+                    loop = false;
+                    break;
+                    
                 default:
                     Console.WriteLine("\n");
                     Console.WriteLine("Invalid user. Please try again.");
