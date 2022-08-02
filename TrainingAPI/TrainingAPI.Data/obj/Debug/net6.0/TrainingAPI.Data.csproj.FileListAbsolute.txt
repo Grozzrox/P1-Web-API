@@ -1,0 +1,15 @@
+C:\Users\Grozz\Revature\training\trainer_code\wk4\TrainingAPI\TrainingAPI.Data\bin\Debug\net6.0\TrainingAPI.Data.deps.json
+C:\Users\Grozz\Revature\training\trainer_code\wk4\TrainingAPI\TrainingAPI.Data\bin\Debug\net6.0\TrainingAPI.Data.dll
+C:\Users\Grozz\Revature\training\trainer_code\wk4\TrainingAPI\TrainingAPI.Data\bin\Debug\net6.0\TrainingAPI.Data.pdb
+C:\Users\Grozz\Revature\training\trainer_code\wk4\TrainingAPI\TrainingAPI.Data\bin\Debug\net6.0\TrainingAPI.Model.dll
+C:\Users\Grozz\Revature\training\trainer_code\wk4\TrainingAPI\TrainingAPI.Data\bin\Debug\net6.0\TrainingAPI.Model.pdb
+C:\Users\Grozz\Revature\training\trainer_code\wk4\TrainingAPI\TrainingAPI.Data\obj\Debug\net6.0\TrainingAPI.Data.csproj.AssemblyReference.cache
+C:\Users\Grozz\Revature\training\trainer_code\wk4\TrainingAPI\TrainingAPI.Data\obj\Debug\net6.0\TrainingAPI.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Grozz\Revature\training\trainer_code\wk4\TrainingAPI\TrainingAPI.Data\obj\Debug\net6.0\TrainingAPI.Data.AssemblyInfoInputs.cache
+C:\Users\Grozz\Revature\training\trainer_code\wk4\TrainingAPI\TrainingAPI.Data\obj\Debug\net6.0\TrainingAPI.Data.AssemblyInfo.cs
+C:\Users\Grozz\Revature\training\trainer_code\wk4\TrainingAPI\TrainingAPI.Data\obj\Debug\net6.0\TrainingAPI.Data.csproj.CoreCompileInputs.cache
+C:\Users\Grozz\Revature\training\trainer_code\wk4\TrainingAPI\TrainingAPI.Data\obj\Debug\net6.0\TrainingAPI.Data.csproj.CopyComplete
+C:\Users\Grozz\Revature\training\trainer_code\wk4\TrainingAPI\TrainingAPI.Data\obj\Debug\net6.0\TrainingAPI.Data.dll
+C:\Users\Grozz\Revature\training\trainer_code\wk4\TrainingAPI\TrainingAPI.Data\obj\Debug\net6.0\refint\TrainingAPI.Data.dll
+C:\Users\Grozz\Revature\training\trainer_code\wk4\TrainingAPI\TrainingAPI.Data\obj\Debug\net6.0\TrainingAPI.Data.pdb
+C:\Users\Grozz\Revature\training\trainer_code\wk4\TrainingAPI\TrainingAPI.Data\obj\Debug\net6.0\ref\TrainingAPI.Data.dll
