@@ -1,28 +1,32 @@
 namespace TrainingAPI.App
 {
-    class AssociateDTO
+    class MusicianDTO
     {
         // Fields
         public int id { get; set; }
-        public string name { get; set; }
-        public string? batch { get; set; }
+        public string username { get; set; }
+        public string password { get; set; }
+        public string song { get; set; }
+        public string lyrics { get; set; }
 
         // Constructor
-        public AssociateDTO()
+        public MusicianDTO()
         {
         }
 
-        public AssociateDTO(int id, string name, string? batch)
+        public MusicianDTO(int id, string username, string password, string song, string lyrics)
         {
             this.id = id;
-            this.name = name;
-            this.batch = batch;
+            this.username = username;
+            this.password = password;
+            this.song = song;
+            this.lyrics = lyrics;
         }
 
         // Methods
         public override string ToString()
         {
-            return $"{id} {name} {batch}";
+            return $"{id} {username} {password} {song} {lyrics}";
         }
 
     }

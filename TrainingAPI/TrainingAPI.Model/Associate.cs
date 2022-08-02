@@ -4,18 +4,22 @@
     {
         // Fields
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string? Batch { get; set; }
+        public string username { get; set; }
+        public string password { get; set; }
+        public string song { get; set; }
+        public string lyrics { get; set; }
 
         // Constructor
 
         public Associate() { }
 
-        public Associate(int id, string name, string? batch)
+        public Associate(int id, string username, string password, string song, string lyrics)
         {
             Id = id;
-            Name = name;
-            Batch = batch;
+            this.username = username;
+            this.password = password;
+            this.song = song;
+            this.lyrics = lyrics;
         }
 
         // Methods

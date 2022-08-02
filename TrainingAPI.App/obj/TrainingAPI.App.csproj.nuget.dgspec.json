@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Grozz\\Revature\\training\\trainer_code\\wk4\\TrainingAPI.App\\TrainingAPI.App.csproj": {}
+    "C:\\Users\\Grozz\\Revature\\P1\\TrainingAPI.App\\TrainingAPI.App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Grozz\\Revature\\training\\trainer_code\\wk4\\TrainingAPI.App\\TrainingAPI.App.csproj": {
+    "C:\\Users\\Grozz\\Revature\\P1\\TrainingAPI.App\\TrainingAPI.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Grozz\\Revature\\training\\trainer_code\\wk4\\TrainingAPI.App\\TrainingAPI.App.csproj",
+        "projectUniqueName": "C:\\Users\\Grozz\\Revature\\P1\\TrainingAPI.App\\TrainingAPI.App.csproj",
         "projectName": "TrainingAPI.App",
-        "projectPath": "C:\\Users\\Grozz\\Revature\\training\\trainer_code\\wk4\\TrainingAPI.App\\TrainingAPI.App.csproj",
+        "projectPath": "C:\\Users\\Grozz\\Revature\\P1\\TrainingAPI.App\\TrainingAPI.App.csproj",
         "packagesPath": "C:\\Users\\Grozz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Grozz\\Revature\\training\\trainer_code\\wk4\\TrainingAPI.App\\obj\\",
+        "outputPath": "C:\\Users\\Grozz\\Revature\\P1\\TrainingAPI.App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Grozz\\AppData\\Roaming\\NuGet\\NuGet.Config",

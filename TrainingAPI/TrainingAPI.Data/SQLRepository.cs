@@ -25,7 +25,7 @@ namespace TrainingAPI.Data
             using SqlConnection connection = new(_connectionString);
             await connection.OpenAsync();
 
-            string cmdText = "SELECT Id, Name, batch FROM ASSOCIATES;";
+            string cmdText = "SELECT Id, username, password, song, lyrics FROM Musicians;";
 
             using SqlCommand cmd = new(cmdText, connection);
 
@@ -34,10 +34,12 @@ namespace TrainingAPI.Data
             while (await reader.ReadAsync())
             {
                 int id = reader.GetInt32(0);
-                string name = reader.GetString(1);
-                string? batch = reader.IsDBNull(2) ? "" : reader.GetString(2);
+                string username = reader.GetString(1);
+                string password = reader.GetString(2);
+                string song = reader.GetString(3);
+                string? lyrics = reader.IsDBNull(4) ? "" : reader.GetString(4);
 
-                Associate tmpAssociate = new Associate(id, name, batch);
+                Associate tmpAssociate = new Associate(id, username, password, song, lyrics);
                 result.Add(tmpAssociate);
             }
 
